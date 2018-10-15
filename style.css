@@ -1,0 +1,10 @@
+body{
+    background:green;
+    color:white;
+}
+ul { background: black;
+}
+
+ul li{
+    display: inline;
+}
