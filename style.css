@@ -8,3 +8,11 @@ ul { background: black;
 ul li{
     display: inline;
 }
+b{background-color: red;
+transition: all 1s;
+padding:1px;
+}
+
+a:hover{
+    background-color: pink;
+}
