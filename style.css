@@ -2,19 +2,22 @@ body{
     background:green;
     color:white;
 }
-ul { background: black;
+ul { background: green;
 }
+
 
 ul li{
     display: inline;
+
 }
-a{background-color: red;
+
+a{background-color:  aquamarine;
 transition: all 1s;
 padding:1px;
 }
 
 a:hover{
-    background-color: pink;
+    background-color: pink, color: green;
 }
 iframe{
 
