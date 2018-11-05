@@ -9,38 +9,37 @@
 
 <body class="contact-bg">
 <div class=""container-fluid contact-bg">
-<ul>
-
-</ul>
-<a><a href="index.html">Strona glowna</a></li>
-    <li>Kontakt</li>
+<ul><a><a href="index.html">Strona glowna</a></li>
+    <li><a href="map.html">Mapa<a/></li>
     <li><a href="contact.html">Contact<a/></li>
 </ul>
 
 
 
+
 <form>
+
     <div class="form-group">
         <label for="imie">Podaj swoje imie.</label>
-        <input type="email" class="form-control" id="imie" placeholder="Imie">
+        <input type="text" class="form-control" id="imie" placeholder="Imie" required pattern="[a-zA-Z]+">
     </div>
     <div class="form-group">
         <label for="nazwisko">Podaj swoje nazwisko.</label>
-        <input type="email" class="form-control" id="nazwisko" placeholder="Nazwisko">
+        <input type="text" class="form-control" id="nazwisko" placeholder="Nazwisko" required pattern="[a-zA-Z]+" >
     </div>
     <div class="form-group">
         <label for="email">Podaj swoj email.</label>
-        <input type="email" class="form-control" id="email" placeholder="Email">
+        <input type="email" class="form-control" id="email" placeholder="Email" required >
     </div>
     <label for="Płeć">Wybierz swoją płeć.</label>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="Płeć" value="option1" checked>
+        <input class="form-check-input" type="radio" name="exampleRadios" id="Płeć" value="option1" checked required >
         <label class="form-check-label" for="Płeć">
             Mężczyzna
         </label>
     </div>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" required >
         <label class="form-check-label" for="exampleRadios2">
             Kobieta
         </label>
@@ -49,11 +48,11 @@
     </div>
     <div class="form-group">
         <br><label for="Opis">Opis</label></br>
-        <textarea class="form-control" id="Opis" rows="3"></textarea>
+        <textarea class="form-control" id="Opis" rows="3" required ></textarea>
       </div>
 
     <label for ="age">Wiek</label>
-    <input type="number" name="age" id="age" min="15"   max="100" />
+    <input type="number" name="age" id="age" min="15"   max="100" required />
 
     <div class="form-group">
         Stan cywilny
@@ -62,6 +61,9 @@
             <option>Panna</option>
         </select>
 
+
+        <button class="btn btn-primary" type="submit" value="submit">Wyślij</button>
+        <button class="btn btn-secondary" type="reset" value="reset">Wyczyść</button>
     </div>
     </fieldset>
                                                     
