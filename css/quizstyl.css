@@ -1,0 +1,11 @@
+body {
+    background-color: green;
+.quiz-bg{
+    background-color:#FFFF99;
+}
+}
+ul { background: mediumspringgreen;
+}
+ul li{
+    display: inline;
+}
